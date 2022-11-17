@@ -1,0 +1,38 @@
+.tag {
+  height: 32px;
+
+  border-radius: 15px;
+  padding: 7px 14px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  height: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.blue {
+  background: #8dc8e4;
+}
+
+.orange {
+  background: #ffb35c;
+}
+
+.cross {
+  cursor: pointer;
+}
